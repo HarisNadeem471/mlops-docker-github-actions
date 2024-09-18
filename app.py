@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     accuracy = train_model()
-    return jsonify({"message": f"Model Accuracy: {accuracy:.2f}"}), 200
+    return jsonify({"message": f"Model Accuracy is: {accuracy:.2f}"}), 200
 
 if __name__ == '__main__':
     app.run(debug=True)
