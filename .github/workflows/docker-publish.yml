@@ -20,7 +20,7 @@ jobs:
 
     # Log in to Docker Hub
     - name: Log in to Docker Hub
-      uses: docker/login-action@v3
+      uses: docker/login-action@v2
       with:
         username: naadeemharis810  # Store your Docker Hub username as a GitHub secret
         password: f@st2013842  # Store your Docker Hub password as a GitHub secret
